@@ -1,0 +1,30 @@
+{
+  "name": "wt",
+  "version": "0.0.1",
+  "description": "Web Technology where Bunyod aka teaches how to create websites!",
+  "scripts": {
+    "test": "npm run format:check",
+    "format": "prettier --write --check \"**/*.{js,json,md}\"\n",
+    "format:check": "prettier --check \"**/*.{js,json,md}\"\n",
+    "update": "npm update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiseldevs/wt.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "wiut",
+    "classes"
+  ],
+  "author": "Genemator Sakhib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiseldevs/wt/issues"
+  },
+  "homepage": "https://github.com/chiseldevs/wt#readme",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
+}
