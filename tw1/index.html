@@ -1,12 +1,79 @@
+<!--
+  Doctype is not HTML element.
+  It is more like a 'meta' message to the browser.
+  It is used to tell the browser that page is structured
+  used HTML5 - latest standard.
+-->
 <!DOCTYPE html>
+
+<!--
+  'html' is a root element.
+  All the other tags must go inside it.
+-->
 <html lang="en">
+
+<!--
+  'head' is used to group the information
+  (about your website or web application)
+  and provide to the browser as additional
+  information. It is also used to 'link' other files
+  (i.e. CSS) to your HTML page.
+-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+    <!--
+      A lot of 'meta' data can be included into
+      the 'head' but in this example to keep it simple
+      only 'title' is used. 'title' is the title of the webpage
+      that appears in the browser tab bar.
+    -->
+    <title>My webapp</title>
 </head>
+
 <body>
-    <h1>
-        Hello World App
-    </h1>
+<!-- Logo placeholder of the webapp -->
+<!--
+  For logo placeholder text 'h1' tag is used.
+  'h' means heading and numbers (1-6) are used to
+  indicate the size of the text inside the very text.
+  1 - the biggest, 6 - smallest heading.
+-->
+<h1>My web app</h1>
+
+<!-- Navigation of the webapp -->
+<!--
+  For navigation 'nav' tag is used. Inside the 'nav'
+  tag we have 'ul' tag for unordered list with group of
+  'li' tags for list item.
+
+  Each list item have 'a' tag with 'href' attribute
+  that serve as a link to specific route.
+-->
+
+<nav>
+    <!-- Navigation items collection -->
+    <ul>
+        <!-- First navigation item -->
+        <li><a href="#">Home</a></li>
+
+        <!-- Second navigation item -->
+        <li><a href="#">About</a></li>
+
+        <!-- Third navigation item -->
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Intro text of the webapp -->
+<!--
+  For adding regular text content to the page
+  'p' element can be used. 'p' means paragraph.
+ -->
+<p>This web app does nothing useful. Yay!</p>
+
+<!--
+  Below feel free to test different elements (refer to the provided links)
+  Refer to tutor if anything is unclear.
+-->
 </body>
 </html>
